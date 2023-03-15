@@ -1,0 +1,102 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  line-height: 1;
+  background-color: hsl(185, 75%, 39%) !important;
+  background: url(images/bg-pattern-top.svg) no-repeat no-repeat top -30rem left -5rem,
+    url(images/bg-pattern-bottom.svg) no-repeat no-repeat top 40rem right -5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+section {
+  max-width: 37.5rem;
+  padding: 0 0.5rem;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 1.6rem;
+  overflow: hidden;
+}
+.card-cover {
+  width: 100%;
+}
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-picture {
+  margin: -6rem 0 2.4rem 0;
+}
+
+.profile-picture {
+  border-radius: 50%;
+  border: 0.5rem solid #fff;
+}
+
+.header-name {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1.2rem;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: hsl(229, 23%, 23%);
+}
+
+h1:last-child {
+  color: hsl(227, 10%, 46%);
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+h3 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: hsl(0, 0%, 59%);
+}
+
+p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: hsl(227, 10%, 46%);
+}
+
+.profile-stats {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-top: 1px solid hsla(0, 0%, 59%, 0.5);
+  margin: 2.4rem 0 0 0;
+  padding: 2.4rem 0;
+  width: 100%;
+}
+.profile-statistic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
